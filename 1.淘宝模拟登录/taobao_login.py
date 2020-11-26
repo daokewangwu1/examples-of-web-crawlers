@@ -59,7 +59,6 @@ class taobao_infos:
 # 1.下载chrome浏览器:https://www.google.com/chrome/
 # 2.查看chrome浏览器的版本号，下载对应版本号的chromedriver驱动:http://chromedriver.storage.googleapis.com/index.html
 # 3.填写chromedriver的绝对路径
-# 4.执行命令pip install selenium
 
 
 if __name__ == "__main__":
