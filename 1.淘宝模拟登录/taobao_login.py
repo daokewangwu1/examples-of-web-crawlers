@@ -24,7 +24,7 @@ class taobao_infos:
     #登录淘宝
     def login(self):
 
-        # 打开网页
+
         self.browser.get(self.url)
 
         # 等待 密码登录选项 出现
@@ -55,12 +55,12 @@ class taobao_infos:
 
 
 
-# 使用教程：
+
 # 1.下载chrome浏览器:https://www.google.com/chrome/
 # 2.查看chrome浏览器的版本号，下载对应版本号的chromedriver驱动:http://chromedriver.storage.googleapis.com/index.html
 # 3.填写chromedriver的绝对路径
 # 4.执行命令pip install selenium
-# 5.打开https://account.weibo.com/set/bindsns/bindtaobao并通过微博绑定淘宝账号密码
+
 
 if __name__ == "__main__":
     
